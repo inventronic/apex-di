@@ -31,6 +31,9 @@ A lightweight, production-ready Apex dependency injection framework designed to 
 ## Table of Contents
 
 - [Quick Start](#quick-start)
+  - [Basic Service Registration and Resolution (Quick Start)](#basic-service-registration-and-resolution-quick-start)
+  - [Scope-based Providers (Modules)](#scope-based-providers-modules)
+  - [Platform Usage With Examples](#platform-usage-with-examples)
 - [Core Concepts](#core-concepts)
   - [Service Lifetimes](#service-lifetimes)
   - [Service Registration](#service-registration)
