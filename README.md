@@ -1,12 +1,13 @@
 # Apex Dependency Injection (Apex DI)
 
-[![version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)](https://github.com/inventronic/apex-di) 
-[![build](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/inventronic/apex-di)
+![version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg) ![build](https://img.shields.io/badge/build-passing-brightgreen.svg) ![build](https://img.shields.io/badge/coverage-98%-brightgreen.svg)
 
 A lightweight, production-ready Apex dependency injection framework designed to bring modern dependency injection patterns to Salesforce development. Inspired by .NET Core's dependency injection architecture, Apex DI helps you write cleaner, more testable, and more maintainable code.
 ## Deployment
 
 ### Deploy to Salesforce Production / Developer
+
+**Note: While installing the package, make sure to open "Advanced Options" and select "Compile only the Apex in the package."**
 
 Click the button below to deploy Apex DI to your Production environment:
 
@@ -100,6 +101,114 @@ System.debug(cow.speak());
 // Global vs scoped: services registered on `salesProvider` are NOT automatically
 // available via `DI.getService(...)` unless you also register them on `DI.services`.
 ```
+
+### Platform Usage With Examples
+
+Below are concise examples showing how to use Apex DI from common Salesforce entry points.
+
+```java
+// LWC / Aura Apex Controller (static @AuraEnabled method)
+public with sharing class LwcController {
+    private static final IAnimal svcAnimal;
+    
+    // Static Initialization Block
+    static {
+        svcAnimal = (IAnimal) DI.getService(IAnimal.class);
+    }
+
+    @AuraEnabled(cacheable=true)
+    public static String getAnimalSpeak() {
+        return svcAnimal?.speak();
+    }
+}
+
+// Visualforce Page Controller (constructor injection via DI lookup)
+public with sharing class VfController {
+    private final IAnimal svcAnimal;
+
+    //Initialization Block
+    {
+        this.svcAnimal = (IAnimal) DI.getService(IAnimal.class);
+    }
+
+    public String getSpeak() { return svcAnimal?.speak(); }
+}
+
+// REST API Controller
+@RestResource(urlMapping='/animals/*')
+global with sharing class AnimalRest {
+    private static final IAnimal svcAnimal;
+    
+    // Static Initialization Block
+    static {
+        svcAnimal = (IAnimal) DI.getService(IAnimal.class);
+    }
+
+    @HttpGet
+    global static String getAnimal() {
+        return svcAnimal?.speak();
+    }
+}
+
+// Asynchronous @future Example
+public with sharing class AsyncTasks {
+    private static final IAccountService svcAccount;
+    
+    // Static Initialization Block
+    static {
+        svcAccount = (IAccountService) DI.getService(IAccountService.class);
+    }
+
+    @future
+    public static void runAsyncTask() {
+        svcAccount?.run();
+    }
+}
+
+// Invocable Action (Flow / Process Builder)
+public with sharing class InvocableActions {
+    private static final IAccountService svcAccount;
+    public class Request { @InvocableVariable public String input; }
+    public class Result  { @InvocableVariable public String output; }
+    
+    // Static Initialization Block
+    static {
+        svcAccount = (IAccountService) DI.getService(IAccountService.class);
+    }
+
+    @InvocableMethod(label='Run DI Action')
+    public static List<Result> run(List<Request> requests) {
+        svcAccount.run();
+        for (Request r : requests) {
+            results.add(new Result{ output = String.valueOf('some data') });
+        }
+        return results;
+    }
+}
+
+// Batch Apex Example
+global with sharing class AnimalBatch implements Database.Batchable<sObject> {
+    private final IAccountService svcAccount;
+
+    // Initialization Block
+    {
+        this.svcAccount = (IAccountService) DI.getService(IAccountService.class);
+    }
+
+    global Database.QueryLocator start(Database.BatchableContext bc) {
+        return Database.getQueryLocator([SELECT Id FROM Account LIMIT 1]);
+    }
+
+    global void execute(Database.BatchableContext bc, List<sObject> scope) {
+        this.svcAccount?.run();
+    }
+    
+    global void finish(Database.BatchableContext bc) { 
+        /* optional cleanup */ 
+    }
+}
+```
+
 
 ## Core Concepts
 
