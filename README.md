@@ -6,17 +6,17 @@
 A lightweight, production-ready Apex dependency injection framework designed to bring modern dependency injection patterns to Salesforce development. Inspired by .NET Core's dependency injection architecture, Apex DI helps you write cleaner, more testable, and more maintainable code.
 ## Deployment
 
-### Deploy to Salesforce Production
+### Deploy to Salesforce Production / Developer
 
 Click the button below to deploy Apex DI to your Production environment:
 
-[![Deploy to Production](docs/images/deploy-to-production.svg)](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tIU000000r90eYAA)
+[![Deploy to Production / Developer](docs/images/deploy-to-production.svg)](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tIU000000r90eYAA)
 
 ### Deploy to Sandbox
 
 Click the button below to deploy Apex DI to your Sandbox environment:
 
-[![Deploy to Sandbox](docs/images/deploy-to-sandbox.svg)](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tIU000000r90eYAA)
+[![Deploy to Sandbox / Test](docs/images/deploy-to-sandbox.svg)](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tIU000000r90eYAA)
 
 ## Why Apex DI?
 
