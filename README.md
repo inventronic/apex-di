@@ -9,8 +9,8 @@ A lightweight, production-ready Apex dependency injection framework designed to 
 
 | Environment           | Installation Link                                                                                                                                         | Version   |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
-| Production, Developer | <a target="_blank" href="https://login.salesforce.com/packaging/installPackage.apexp?p0=04tIU000000r90eYAA"><img src="docs/images/deploy-to-production.svg"></a> | ver 1.0 |
-| Sandbox               | <a target="_blank" href="https://test.salesforce.com/packaging/installPackage.apexp?p0=04tIU000000r90eYAA"><img src="docs/images/deploy-to-sandbox.svg"></a> | ver 1.0 |
+| Production, Developer | [![Deploy to Production / Developer](docs/images/deploy-to-production.svg)](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tIU000000r90eYAA) | ver 1.0 |
+| Sandbox               | [![Deploy to Sandbox / Test](docs/images/deploy-to-sandbox.svg)](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tIU000000r90eYAA) | ver 1.0 |
 
 **Note: While installing the package, make sure to open "Advanced Options" and select "Compile only the Apex in the package."**
 ## Why Apex DI?
