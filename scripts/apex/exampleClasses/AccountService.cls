@@ -1,4 +1,4 @@
-public class AccountService implements IAccountService {
+public with sharing class AccountService implements IAccountService {
   UUID randomUUID = UUID.randomUUID();
   private IError error { get; set; }
   public IError run() {
