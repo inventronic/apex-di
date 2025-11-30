@@ -1,6 +1,6 @@
 # Apex Dependency Injection (Apex DI)
 
-![version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg) ![build](https://img.shields.io/badge/build-passing-brightgreen.svg) ![coverage](https://img.shields.io/badge/coverage-98%-brightgreen.svg)
+![](https://img.shields.io/badge/version-1.0.0-brightgreen.svg) ![](https://img.shields.io/badge/build-passing-brightgreen.svg)  ![](https://img.shields.io/badge/coverage-98%25-brightgreen.svg)
 
 A lightweight, production-ready Apex dependency injection framework designed to bring modern dependency injection patterns to Salesforce development. Inspired by .NET Core's dependency injection architecture, Apex DI helps you write cleaner, more testable, and more maintainable code.
 ## Deployment
