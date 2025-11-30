@@ -1,0 +1,25 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    },
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "force-app\\main",
+      "default": false,
+      "package": "ApexDependencyInjection",
+      "versionDescription": ""
+    }
+  ],
+  "name": "ApexDependencyInjection",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "64.0",
+  "packageAliases": {
+    "ApexDependencyInjection": "0HoIU0000004CI00AM",
+    "ApexDependencyInjection@0.1.0-1": "04tIU000000ylEHYAY",
+    "Apex Dependency Injection@1.0.0-1": "04tIU000000r90eYAA"
+  }
+}

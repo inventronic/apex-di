@@ -1,0 +1,203 @@
+17:17:06.79 (135846486)|USER_DEBUG|[8]|INFO|DI Registration Singleton Performance (CPU): 38
+17:17:06.79 (139021146)|USER_DEBUG|[20]|INFO|DI Resolution Singleton Performance (CPU) 5: 2
+17:17:06.79 (142025951)|USER_DEBUG|[30]|INFO|DI Resolution Singleton Performance (CPU) 10: 3
+17:17:06.79 (146191025)|USER_DEBUG|[40]|INFO|DI Resolution Singleton Performance (CPU) 15: 4
+17:17:06.79 (151612201)|USER_DEBUG|[50]|INFO|DI Resolution Singleton Performance (CPU) 20: 5
+17:17:06.79 (158286698)|USER_DEBUG|[60]|INFO|DI Resolution Singleton Performance (CPU) 25: 7
+17:17:06.79 (173392339)|USER_DEBUG|[120]|INFO|DI Resolution Singleton Performance (CPU) 30: 4
+17:17:06.79 (177982905)|USER_DEBUG|[131]|INFO|DI Resolution Singleton Performance (CPU) 35: 4
+17:17:06.79 (188130852)|USER_DEBUG|[142]|INFO|DI Resolution Singleton Performance (CPU) 40: 10
+17:17:06.79 (159302282)|USER_DEBUG|[70]|INFO|DI Resolution Singleton 2nd Round (CPU) x5: 1
+17:17:06.79 (160840593)|USER_DEBUG|[80]|INFO|DI Resolution Singleton 2nd Round (CPU) 10: 1
+17:17:06.79 (162940175)|USER_DEBUG|[90]|INFO|DI Resolution Singleton 2nd Round (CPU) 15: 2
+17:17:06.79 (165852478)|USER_DEBUG|[100]|INFO|DI Resolution Singleton 2nd Round (CPU) 20: 3
+17:17:06.79 (169284719)|USER_DEBUG|[110]|INFO|DI Resolution Singleton 2nd Round (CPU) 25: 4
+17:17:06.79 (192104192)|USER_DEBUG|[152]|INFO|DI Resolution Singleton 2nd Round (CPU) 30: 4
+17:17:06.79 (196474372)|USER_DEBUG|[163]|INFO|DI Resolution Singleton 2nd Round (CPU) 35: 4
+17:17:06.79 (201528799)|USER_DEBUG|[174]|INFO|DI Resolution Singleton 2nd Round (CPU) 40: 4
+
+==========================
+
+17:47:42.97 (97778451)|EXECUTION_STARTED
+17:47:42.97 (97805403)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+17:47:42.97 (174448499)|USER_DEBUG|[8]|INFO|DI Registration Singleton Performance (CPU): 48
+17:47:42.97 (177726225)|USER_DEBUG|[20]|INFO|DI Resolution Singleton Performance (CPU) 5: 3
+17:47:42.97 (181605307)|USER_DEBUG|[30]|INFO|DI Resolution Singleton Performance (CPU) 10: 4
+17:47:42.97 (187305700)|USER_DEBUG|[40]|INFO|DI Resolution Singleton Performance (CPU) 15: 5
+17:47:42.97 (194961758)|USER_DEBUG|[50]|INFO|DI Resolution Singleton Performance (CPU) 20: 8
+17:47:42.97 (204156931)|USER_DEBUG|[60]|INFO|DI Resolution Singleton Performance (CPU) 25: 9
+17:47:42.97 (228738363)|USER_DEBUG|[120]|INFO|DI Resolution Singleton Performance (CPU) 30: 6
+17:47:42.97 (236098038)|USER_DEBUG|[131]|INFO|DI Resolution Singleton Performance (CPU) 35: 7
+17:47:42.97 (248722011)|USER_DEBUG|[142]|INFO|DI Resolution Singleton Performance (CPU) 40: 13
+17:47:42.97 (205494567)|USER_DEBUG|[70]|INFO|DI Resolution Singleton 2nd Round (CPU) x5: 1
+17:47:42.97 (207905666)|USER_DEBUG|[80]|INFO|DI Resolution Singleton 2nd Round (CPU) 10: 3
+17:47:42.97 (211393634)|USER_DEBUG|[90]|INFO|DI Resolution Singleton 2nd Round (CPU) 15: 3
+17:47:42.97 (216146168)|USER_DEBUG|[100]|INFO|DI Resolution Singleton 2nd Round (CPU) 20: 5
+17:47:42.97 (221936189)|USER_DEBUG|[110]|INFO|DI Resolution Singleton 2nd Round (CPU) 25: 6
+17:47:42.97 (255049334)|USER_DEBUG|[152]|INFO|DI Resolution Singleton 2nd Round (CPU) 30: 6
+17:47:42.97 (262460168)|USER_DEBUG|[163]|INFO|DI Resolution Singleton 2nd Round (CPU) 35: 8
+17:47:42.97 (271026267)|USER_DEBUG|[174]|INFO|DI Resolution Singleton 2nd Round (CPU) 40: 8
+17:47:42.271 (271112000)|CUMULATIVE_LIMIT_USAGE
+17:47:42.271 (271112000)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 155 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+
+=============================
+
+  19:26:55.99 (99659412)|EXECUTION_STARTED
+19:26:55.99 (99695643)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+19:26:55.99 (153787732)|USER_DEBUG|[8]|INFO|DI Registration Singleton Performance (CPU): 31
+19:26:55.99 (156999959)|USER_DEBUG|[20]|INFO|DI Resolution Singleton Performance (CPU) 5: 2
+19:26:55.99 (159690793)|USER_DEBUG|[30]|INFO|DI Resolution Singleton Performance (CPU) 10: 3
+19:26:55.99 (163869101)|USER_DEBUG|[40]|INFO|DI Resolution Singleton Performance (CPU) 15: 4
+19:26:55.99 (169256917)|USER_DEBUG|[50]|INFO|DI Resolution Singleton Performance (CPU) 20: 5
+19:26:55.99 (175989865)|USER_DEBUG|[60]|INFO|DI Resolution Singleton Performance (CPU) 25: 7
+19:26:55.99 (176930872)|USER_DEBUG|[70]|INFO|DI Resolution Singleton 2nd Round (CPU) x5: 1
+19:26:55.99 (178427362)|USER_DEBUG|[80]|INFO|DI Resolution Singleton 2nd Round (CPU) 10: 1
+19:26:55.99 (180492263)|USER_DEBUG|[90]|INFO|DI Resolution Singleton 2nd Round (CPU) 15: 2
+19:26:55.99 (183213091)|USER_DEBUG|[100]|INFO|DI Resolution Singleton 2nd Round (CPU) 20: 3
+19:26:55.99 (186599017)|USER_DEBUG|[110]|INFO|DI Resolution Singleton 2nd Round (CPU) 25: 3
+19:26:55.99 (190409185)|USER_DEBUG|[120]|INFO|DI Resolution Singleton Performance (CPU) 30: 4
+19:26:55.99 (194824740)|USER_DEBUG|[131]|INFO|DI Resolution Singleton Performance (CPU) 35: 4
+19:26:55.99 (203636590)|USER_DEBUG|[142]|INFO|DI Resolution Singleton Performance (CPU) 40: 9
+19:26:55.99 (207589177)|USER_DEBUG|[152]|INFO|DI Resolution Singleton 2nd Round (CPU) 30: 4
+19:26:55.99 (212057832)|USER_DEBUG|[163]|INFO|DI Resolution Singleton 2nd Round (CPU) 35: 4
+19:26:55.99 (217197797)|USER_DEBUG|[174]|INFO|DI Resolution Singleton 2nd Round (CPU) 40: 5
+19:26:55.217 (217283444)|CUMULATIVE_LIMIT_USAGE
+19:26:55.217 (217283444)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 100 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+=============================
+
+9:34:35.85 (85087561)|EXECUTION_STARTED
+19:34:35.85 (85131422)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+19:34:35.85 (129962945)|USER_DEBUG|[8]|INFO|DI Registration Singleton Performance (CPU): 26
+19:34:35.85 (133059617)|USER_DEBUG|[20]|INFO|DI Resolution Singleton Performance (CPU) 5: 2
+19:34:35.85 (135554051)|USER_DEBUG|[30]|INFO|DI Resolution Singleton Performance (CPU) 10: 2
+19:34:35.85 (139029835)|USER_DEBUG|[40]|INFO|DI Resolution Singleton Performance (CPU) 15: 3
+19:34:35.85 (143596859)|USER_DEBUG|[50]|INFO|DI Resolution Singleton Performance (CPU) 20: 4
+19:34:35.85 (149225255)|USER_DEBUG|[60]|INFO|DI Resolution Singleton Performance (CPU) 25: 6
+19:34:35.85 (150130530)|USER_DEBUG|[70]|INFO|DI Resolution Singleton 2nd Round (CPU) x5: 1
+19:34:35.85 (151692369)|USER_DEBUG|[80]|INFO|DI Resolution Singleton 2nd Round (CPU) 10: 1
+19:34:35.85 (153880514)|USER_DEBUG|[90]|INFO|DI Resolution Singleton 2nd Round (CPU) 15: 3
+19:34:35.85 (156718745)|USER_DEBUG|[100]|INFO|DI Resolution Singleton 2nd Round (CPU) 20: 2
+19:34:35.85 (160215021)|USER_DEBUG|[110]|INFO|DI Resolution Singleton 2nd Round (CPU) 25: 4
+19:34:35.85 (164483555)|USER_DEBUG|[120]|INFO|DI Resolution Singleton Performance (CPU) 30: 4
+19:34:35.85 (169306484)|USER_DEBUG|[131]|INFO|DI Resolution Singleton Performance (CPU) 35: 5
+19:34:35.85 (177420825)|USER_DEBUG|[142]|INFO|DI Resolution Singleton Performance (CPU) 40: 8
+19:34:35.85 (181568117)|USER_DEBUG|[152]|INFO|DI Resolution Singleton 2nd Round (CPU) 30: 4
+19:34:35.85 (186516012)|USER_DEBUG|[163]|INFO|DI Resolution Singleton 2nd Round (CPU) 35: 5
+19:34:35.85 (192186700)|USER_DEBUG|[174]|INFO|DI Resolution Singleton 2nd Round (CPU) 40: 5
+19:34:35.192 (192289630)|CUMULATIVE_LIMIT_USAGE
+19:34:35.192 (192289630)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 94 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+
+========================== Without errors checks
+0:07:01.76 (76340670)|EXECUTION_STARTED
+20:07:01.76 (76365703)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+20:07:01.76 (115802230)|USER_DEBUG|[8]|INFO|DI Registration Singleton Performance (CPU): 21
+20:07:01.76 (118615966)|USER_DEBUG|[20]|INFO|DI Resolution Singleton Performance (CPU) 5: 2
+20:07:01.76 (120833995)|USER_DEBUG|[30]|INFO|DI Resolution Singleton Performance (CPU) 10: 2
+20:07:01.76 (124049913)|USER_DEBUG|[40]|INFO|DI Resolution Singleton Performance (CPU) 15: 3
+20:07:01.76 (128274013)|USER_DEBUG|[50]|INFO|DI Resolution Singleton Performance (CPU) 20: 4
+20:07:01.76 (133735897)|USER_DEBUG|[60]|INFO|DI Resolution Singleton Performance (CPU) 25: 6
+20:07:01.76 (134506052)|USER_DEBUG|[70]|INFO|DI Resolution Singleton 2nd Round (CPU) x5: 1
+20:07:01.76 (135824121)|USER_DEBUG|[80]|INFO|DI Resolution Singleton 2nd Round (CPU) 10: 1
+20:07:01.76 (137751079)|USER_DEBUG|[90]|INFO|DI Resolution Singleton 2nd Round (CPU) 15: 2
+20:07:01.76 (140373189)|USER_DEBUG|[100]|INFO|DI Resolution Singleton 2nd Round (CPU) 20: 2
+20:07:01.76 (143408378)|USER_DEBUG|[110]|INFO|DI Resolution Singleton 2nd Round (CPU) 25: 3
+20:07:01.76 (147023433)|USER_DEBUG|[120]|INFO|DI Resolution Singleton Performance (CPU) 30: 4
+20:07:01.76 (151248038)|USER_DEBUG|[131]|INFO|DI Resolution Singleton Performance (CPU) 35: 4
+20:07:01.76 (158522206)|USER_DEBUG|[142]|INFO|DI Resolution Singleton Performance (CPU) 40: 7
+20:07:01.76 (162241563)|USER_DEBUG|[152]|INFO|DI Resolution Singleton 2nd Round (CPU) 30: 4
+20:07:01.76 (166418600)|USER_DEBUG|[163]|INFO|DI Resolution Singleton 2nd Round (CPU) 35: 4
+20:07:01.76 (171252963)|USER_DEBUG|[174]|INFO|DI Resolution Singleton 2nd Round (CPU) 40: 5
+20:07:01.171 (171333603)|CUMULATIVE_LIMIT_USAGE
+20:07:01.171 (171333603)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 83 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+  ===================================
+
+0:20:30.89 (89476551)|EXECUTION_STARTED
+20:20:30.89 (89510904)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+20:20:30.89 (136419258)|USER_DEBUG|[8]|INFO|DI Registration Singleton Performance (CPU): 27
+20:20:30.89 (140048972)|USER_DEBUG|[20]|INFO|DI Resolution Singleton Performance (CPU) 5: 2
+20:20:30.89 (143107747)|USER_DEBUG|[30]|INFO|DI Resolution Singleton Performance (CPU) 10: 2
+20:20:30.89 (147136774)|USER_DEBUG|[40]|INFO|DI Resolution Singleton Performance (CPU) 15: 4
+20:20:30.89 (152657789)|USER_DEBUG|[50]|INFO|DI Resolution Singleton Performance (CPU) 20: 6
+20:20:30.89 (159252202)|USER_DEBUG|[60]|INFO|DI Resolution Singleton Performance (CPU) 25: 6
+20:20:30.89 (160221003)|USER_DEBUG|[70]|INFO|DI Resolution Singleton 2nd Round (CPU) x5: 1
+20:20:30.89 (161948452)|USER_DEBUG|[80]|INFO|DI Resolution Singleton 2nd Round (CPU) 10: 2
+20:20:30.89 (164507861)|USER_DEBUG|[90]|INFO|DI Resolution Singleton 2nd Round (CPU) 15: 2
+20:20:30.89 (167718440)|USER_DEBUG|[100]|INFO|DI Resolution Singleton 2nd Round (CPU) 20: 3
+20:20:30.89 (171624555)|USER_DEBUG|[110]|INFO|DI Resolution Singleton 2nd Round (CPU) 25: 4
+20:20:30.89 (176377629)|USER_DEBUG|[120]|INFO|DI Resolution Singleton Performance (CPU) 30: 4
+20:20:30.89 (181916925)|USER_DEBUG|[131]|INFO|DI Resolution Singleton Performance (CPU) 35: 6
+20:20:30.89 (191631049)|USER_DEBUG|[142]|INFO|DI Resolution Singleton Performance (CPU) 40: 9
+20:20:30.89 (196267114)|USER_DEBUG|[152]|INFO|DI Resolution Singleton 2nd Round (CPU) 30: 5
+20:20:30.89 (201528582)|USER_DEBUG|[163]|INFO|DI Resolution Singleton 2nd Round (CPU) 35: 5
+20:20:30.89 (208075363)|USER_DEBUG|[174]|INFO|DI Resolution Singleton 2nd Round (CPU) 40: 6
+20:20:30.208 (208193704)|CUMULATIVE_LIMIT_USAGE
+20:20:30.208 (208193704)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 105 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10

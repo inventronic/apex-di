@@ -1,0 +1,204 @@
+17:19:24.55 (86820332)|USER_DEBUG|[8]|INFO|DI Registration Scoped Performance (CPU): 24
+17:19:24.55 (88826816)|USER_DEBUG|[20]|INFO|DI Resolution Scoped Performance (CPU) 5: 2
+17:19:24.55 (91560484)|USER_DEBUG|[30]|INFO|DI Resolution Scoped Performance (CPU) 10: 3
+17:19:24.55 (95462366)|USER_DEBUG|[40]|INFO|DI Resolution Scoped Performance (CPU) 15: 4
+17:19:24.55 (100810865)|USER_DEBUG|[50]|INFO|DI Resolution Scoped Performance (CPU) 20: 5
+17:19:24.55 (107380761)|USER_DEBUG|[60]|INFO|DI Resolution Scoped Performance (CPU) 25: 6
+17:19:24.55 (126726962)|USER_DEBUG|[120]|INFO|DI Resolution Scoped Performance (CPU) 30: 6
+17:19:24.55 (132795138)|USER_DEBUG|[131]|INFO|DI Resolution Scoped Performance (CPU) 35: 6
+17:19:24.55 (142288479)|USER_DEBUG|[142]|INFO|DI Resolution Scoped Performance (CPU) 40: 9
+17:19:24.55 (108487268)|USER_DEBUG|[70]|INFO|DI Resolution Scoped 2nd Round (CPU) x5: 1
+17:19:24.55 (110401401)|USER_DEBUG|[80]|INFO|DI Resolution Scoped 2nd Round (CPU) 10: 1
+17:19:24.55 (113205926)|USER_DEBUG|[90]|INFO|DI Resolution Scoped 2nd Round (CPU) 15: 2
+17:19:24.55 (116916416)|USER_DEBUG|[100]|INFO|DI Resolution Scoped 2nd Round (CPU) 20: 4
+17:19:24.55 (121390280)|USER_DEBUG|[110]|INFO|DI Resolution Scoped 2nd Round (CPU) 25: 4
+17:19:24.55 (147506379)|USER_DEBUG|[152]|INFO|DI Resolution Scoped 2nd Round (CPU) 30: 5
+17:19:24.55 (153638474)|USER_DEBUG|[163]|INFO|DI Resolution Scoped 2nd Round (CPU) 35: 6
+17:19:24.55 (160738106)|USER_DEBUG|[174]|INFO|DI Resolution Scoped 2nd Round (CPU) 40: 7
+
+
+==========================
+
+17:49:32.101 (101801285)|EXECUTION_STARTED
+17:49:32.101 (101833273)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+17:49:32.101 (189184947)|USER_DEBUG|[8]|INFO|DI Registration Scoped Performance (CPU): 57
+17:49:32.101 (193701349)|USER_DEBUG|[20]|INFO|DI Resolution Scoped Performance (CPU) 5: 4
+17:49:32.101 (198605983)|USER_DEBUG|[30]|INFO|DI Resolution Scoped Performance (CPU) 10: 5
+17:49:32.101 (205811410)|USER_DEBUG|[40]|INFO|DI Resolution Scoped Performance (CPU) 15: 7
+17:49:32.101 (215245738)|USER_DEBUG|[50]|INFO|DI Resolution Scoped Performance (CPU) 20: 9
+17:49:32.101 (226979340)|USER_DEBUG|[60]|INFO|DI Resolution Scoped Performance (CPU) 25: 12
+17:49:32.101 (259467753)|USER_DEBUG|[120]|INFO|DI Resolution Scoped Performance (CPU) 30: 9
+17:49:32.101 (269514995)|USER_DEBUG|[131]|INFO|DI Resolution Scoped Performance (CPU) 35: 10
+17:49:32.101 (285597182)|USER_DEBUG|[142]|INFO|DI Resolution Scoped Performance (CPU) 40: 16
+17:49:32.101 (228767732)|USER_DEBUG|[70]|INFO|DI Resolution Scoped 2nd Round (CPU) x5: 1
+17:49:32.101 (231973980)|USER_DEBUG|[80]|INFO|DI Resolution Scoped 2nd Round (CPU) 10: 4
+17:49:32.101 (236806454)|USER_DEBUG|[90]|INFO|DI Resolution Scoped 2nd Round (CPU) 15: 4
+17:49:32.101 (242968149)|USER_DEBUG|[100]|INFO|DI Resolution Scoped 2nd Round (CPU) 20: 6
+17:49:32.101 (250813488)|USER_DEBUG|[110]|INFO|DI Resolution Scoped 2nd Round (CPU) 25: 7
+17:49:32.101 (295055838)|USER_DEBUG|[152]|INFO|DI Resolution Scoped 2nd Round (CPU) 30: 9
+17:49:32.101 (305102661)|USER_DEBUG|[163]|INFO|DI Resolution Scoped 2nd Round (CPU) 35: 10
+17:49:32.101 (316647887)|USER_DEBUG|[174]|INFO|DI Resolution Scoped 2nd Round (CPU) 40: 11
+17:49:32.316 (316731055)|CUMULATIVE_LIMIT_USAGE
+17:49:32.316 (316731055)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 194 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+  ==========================
+
+  19:38:40.66 (66787806)|EXECUTION_STARTED
+19:38:40.66 (66821019)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+19:38:40.66 (102491415)|USER_DEBUG|[8]|INFO|DI Registration Scoped Performance (CPU): 29
+19:38:40.66 (104733748)|USER_DEBUG|[20]|INFO|DI Resolution Scoped Performance (CPU) 5: 2
+19:38:40.66 (107814896)|USER_DEBUG|[30]|INFO|DI Resolution Scoped Performance (CPU) 10: 3
+19:38:40.66 (112240776)|USER_DEBUG|[40]|INFO|DI Resolution Scoped Performance (CPU) 15: 4
+19:38:40.66 (118130866)|USER_DEBUG|[50]|INFO|DI Resolution Scoped Performance (CPU) 20: 6
+19:38:40.66 (125261262)|USER_DEBUG|[60]|INFO|DI Resolution Scoped Performance (CPU) 25: 7
+19:38:40.66 (126585503)|USER_DEBUG|[70]|INFO|DI Resolution Scoped 2nd Round (CPU) x5: 1
+19:38:40.66 (128690070)|USER_DEBUG|[80]|INFO|DI Resolution Scoped 2nd Round (CPU) 10: 2
+19:38:40.66 (131716904)|USER_DEBUG|[90]|INFO|DI Resolution Scoped 2nd Round (CPU) 15: 3
+19:38:40.66 (135695536)|USER_DEBUG|[100]|INFO|DI Resolution Scoped 2nd Round (CPU) 20: 4
+19:38:40.66 (140645844)|USER_DEBUG|[110]|INFO|DI Resolution Scoped 2nd Round (CPU) 25: 5
+19:38:40.66 (146549631)|USER_DEBUG|[120]|INFO|DI Resolution Scoped Performance (CPU) 30: 6
+19:38:40.66 (153283924)|USER_DEBUG|[131]|INFO|DI Resolution Scoped Performance (CPU) 35: 7
+19:38:40.66 (163939194)|USER_DEBUG|[142]|INFO|DI Resolution Scoped Performance (CPU) 40: 10
+19:38:40.66 (170098137)|USER_DEBUG|[152]|INFO|DI Resolution Scoped 2nd Round (CPU) 30: 6
+19:38:40.66 (176843924)|USER_DEBUG|[163]|INFO|DI Resolution Scoped 2nd Round (CPU) 35: 7
+19:38:40.66 (184673873)|USER_DEBUG|[174]|INFO|DI Resolution Scoped 2nd Round (CPU) 40: 8
+19:38:40.184 (184758919)|CUMULATIVE_LIMIT_USAGE
+19:38:40.184 (184758919)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 114 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+
+
+==========================
+
+19:40:58.138 (138082948)|EXECUTION_STARTED
+19:40:58.138 (138125127)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+19:40:58.138 (183101538)|USER_DEBUG|[8]|INFO|DI Registration Scoped Performance (CPU): 37
+19:40:58.138 (186286372)|USER_DEBUG|[20]|INFO|DI Resolution Scoped Performance (CPU) 5: 3
+19:40:58.138 (190581977)|USER_DEBUG|[30]|INFO|DI Resolution Scoped Performance (CPU) 10: 4
+19:40:58.138 (196901325)|USER_DEBUG|[40]|INFO|DI Resolution Scoped Performance (CPU) 15: 6
+19:40:58.138 (205107347)|USER_DEBUG|[50]|INFO|DI Resolution Scoped Performance (CPU) 20: 8
+19:40:58.138 (215483731)|USER_DEBUG|[60]|INFO|DI Resolution Scoped Performance (CPU) 25: 11
+19:40:58.138 (217165822)|USER_DEBUG|[70]|INFO|DI Resolution Scoped 2nd Round (CPU) x5: 1
+19:40:58.138 (220011307)|USER_DEBUG|[80]|INFO|DI Resolution Scoped 2nd Round (CPU) 10: 3
+19:40:58.138 (224158419)|USER_DEBUG|[90]|INFO|DI Resolution Scoped 2nd Round (CPU) 15: 4
+19:40:58.138 (229671871)|USER_DEBUG|[100]|INFO|DI Resolution Scoped 2nd Round (CPU) 20: 6
+19:40:58.138 (236503252)|USER_DEBUG|[110]|INFO|DI Resolution Scoped 2nd Round (CPU) 25: 6
+19:40:58.138 (244606602)|USER_DEBUG|[120]|INFO|DI Resolution Scoped Performance (CPU) 30: 8
+19:40:58.138 (253999020)|USER_DEBUG|[131]|INFO|DI Resolution Scoped Performance (CPU) 35: 10
+19:40:58.138 (269537310)|USER_DEBUG|[142]|INFO|DI Resolution Scoped Performance (CPU) 40: 15
+19:40:58.138 (277320890)|USER_DEBUG|[152]|INFO|DI Resolution Scoped 2nd Round (CPU) 30: 8
+19:40:58.138 (286616844)|USER_DEBUG|[163]|INFO|DI Resolution Scoped 2nd Round (CPU) 35: 9
+19:40:58.138 (296978869)|USER_DEBUG|[174]|INFO|DI Resolution Scoped 2nd Round (CPU) 40: 10
+19:40:58.297 (297102833)|CUMULATIVE_LIMIT_USAGE
+19:40:58.297 (297102833)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 154 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+========================== Without errors checks
+20:08:38.72 (72886940)|EXECUTION_STARTED
+20:08:38.72 (72922547)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+20:08:38.72 (105744615)|USER_DEBUG|[8]|INFO|DI Registration Scoped Performance (CPU): 26
+20:08:38.72 (107984529)|USER_DEBUG|[20]|INFO|DI Resolution Scoped Performance (CPU) 5: 2
+20:08:38.72 (110946796)|USER_DEBUG|[30]|INFO|DI Resolution Scoped Performance (CPU) 10: 3
+20:08:38.72 (115261884)|USER_DEBUG|[40]|INFO|DI Resolution Scoped Performance (CPU) 15: 4
+20:08:38.72 (121122982)|USER_DEBUG|[50]|INFO|DI Resolution Scoped Performance (CPU) 20: 6
+20:08:38.72 (128143368)|USER_DEBUG|[60]|INFO|DI Resolution Scoped Performance (CPU) 25: 7
+20:08:38.72 (129361661)|USER_DEBUG|[70]|INFO|DI Resolution Scoped 2nd Round (CPU) x5: 1
+20:08:38.72 (131399739)|USER_DEBUG|[80]|INFO|DI Resolution Scoped 2nd Round (CPU) 10: 2
+20:08:38.72 (134305483)|USER_DEBUG|[90]|INFO|DI Resolution Scoped 2nd Round (CPU) 15: 3
+20:08:38.72 (138532743)|USER_DEBUG|[100]|INFO|DI Resolution Scoped 2nd Round (CPU) 20: 4
+20:08:38.72 (143462583)|USER_DEBUG|[110]|INFO|DI Resolution Scoped 2nd Round (CPU) 25: 5
+20:08:38.72 (149091634)|USER_DEBUG|[120]|INFO|DI Resolution Scoped Performance (CPU) 30: 5
+20:08:38.72 (155738402)|USER_DEBUG|[131]|INFO|DI Resolution Scoped Performance (CPU) 35: 7
+20:08:38.72 (166156309)|USER_DEBUG|[142]|INFO|DI Resolution Scoped Performance (CPU) 40: 10
+20:08:38.72 (171858583)|USER_DEBUG|[152]|INFO|DI Resolution Scoped 2nd Round (CPU) 30: 6
+20:08:38.72 (178220395)|USER_DEBUG|[163]|INFO|DI Resolution Scoped 2nd Round (CPU) 35: 6
+20:08:38.72 (185602995)|USER_DEBUG|[174]|INFO|DI Resolution Scoped 2nd Round (CPU) 40: 7
+20:08:38.185 (185701163)|CUMULATIVE_LIMIT_USAGE
+20:08:38.185 (185701163)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 108 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+=================
+
+20:15:17.78 (78756419)|EXECUTION_STARTED
+20:15:17.78 (78784300)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+20:15:17.78 (123385583)|USER_DEBUG|[8]|INFO|DI Registration Scoped Performance (CPU): 28
+20:15:17.78 (127601483)|USER_DEBUG|[20]|INFO|DI Resolution Scoped Performance (CPU) 5: 2
+20:15:17.78 (130630897)|USER_DEBUG|[30]|INFO|DI Resolution Scoped Performance (CPU) 10: 2
+20:15:17.78 (134847886)|USER_DEBUG|[40]|INFO|DI Resolution Scoped Performance (CPU) 15: 4
+20:15:17.78 (140357067)|USER_DEBUG|[50]|INFO|DI Resolution Scoped Performance (CPU) 20: 5
+20:15:17.78 (147127765)|USER_DEBUG|[60]|INFO|DI Resolution Scoped Performance (CPU) 25: 7
+20:15:17.78 (148238423)|USER_DEBUG|[70]|INFO|DI Resolution Scoped 2nd Round (CPU) x5: 1
+20:15:17.78 (150375889)|USER_DEBUG|[80]|INFO|DI Resolution Scoped 2nd Round (CPU) 10: 2
+20:15:17.78 (153308263)|USER_DEBUG|[90]|INFO|DI Resolution Scoped 2nd Round (CPU) 15: 3
+20:15:17.78 (157204014)|USER_DEBUG|[100]|INFO|DI Resolution Scoped 2nd Round (CPU) 20: 4
+20:15:17.78 (162030936)|USER_DEBUG|[110]|INFO|DI Resolution Scoped 2nd Round (CPU) 25: 4
+20:15:17.78 (167816661)|USER_DEBUG|[120]|INFO|DI Resolution Scoped Performance (CPU) 30: 5
+20:15:17.78 (174543419)|USER_DEBUG|[131]|INFO|DI Resolution Scoped Performance (CPU) 35: 7
+20:15:17.78 (184557661)|USER_DEBUG|[142]|INFO|DI Resolution Scoped Performance (CPU) 40: 10
+20:15:17.78 (190231979)|USER_DEBUG|[152]|INFO|DI Resolution Scoped 2nd Round (CPU) 30: 5
+20:15:17.78 (196825847)|USER_DEBUG|[163]|INFO|DI Resolution Scoped 2nd Round (CPU) 35: 7
+20:15:17.78 (204422516)|USER_DEBUG|[174]|INFO|DI Resolution Scoped 2nd Round (CPU) 40: 7
+20:15:17.204 (204503375)|CUMULATIVE_LIMIT_USAGE
+20:15:17.204 (204503375)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 113 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
