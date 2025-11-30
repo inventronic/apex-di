@@ -1,7 +1,6 @@
 public with sharing class AccountServiceInitializationCode implements IAccountService {
   UUID randomUUID = UUID.randomUUID();
   private IError error { get; set; }
-
   // // Using Initialization Code for Static Classes
   // static {
   //   error = (IError) DI.getService(IError.class);
@@ -10,6 +9,12 @@ public with sharing class AccountServiceInitializationCode implements IAccountSe
   // Using Initialization Code
   {
     error = (IError) DI.getService(IError.class);
+  }
+
+  public UUID accountUUID {
+    get {
+      return randomUUID;
+    }
   }
 
   public IError run() {
